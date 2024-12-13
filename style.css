@@ -1,0 +1,82 @@
+body{  
+  font-family: 'Arial', sans-serif;  
+  padding: 0;  
+  margin: 0;  
+  background-color: rgb(230, 181, 211);  
+  text-align: center;  
+}  
+header{  
+  background-image:url(download.jpg);  
+  color: white;  
+  font-weight: bold;  
+ 
+  padding: 50px 20px;  
+  background-size: cover;  
+  background-position: center;  
+}  
+ 
+ 
+header h1 {  
+  font-size: 2.7rem;  
+  margin-bottom: 20px;  
+    
+}  
+header p{  
+  font-size: 1.5rem;  
+  margin-bottom: 30px;  
+}  
+.action-button{  
+  padding: 10px 20px;  
+  background-color: #007bff;  
+  color: white;  
+  border: none;  
+  border-radius: 15px;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+.action-button:hover {  
+  background-color: #bb1e52;  
+}  
+.layout {  
+  
+  justify-content: center;
+  padding: 30px;
+}  
+
+.accordion{
+  background-color: rgb(209, 117, 204);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.accordion__question p{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7rem;
+
+}
+.accordion__answer p{
+  background-color:rgb(212, 139, 209);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion :hover {  
+  cursor: pointer;
+}  
+.accordion__answer{
+  display: none;
+}
+.accordion.active .accordion__answer{
+  display: block;
+}
+footer {  
+  background-color: #333;  
+  color: white;  
+  text-align: center;  
+  padding: 20px 0;  
+} 
